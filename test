@@ -1,0 +1,66 @@
+}
+p {
+text-align: center;
+}
+table {
+width: 100%;
+text-align: left;
+table-layout: fixed;
+}
+#buttons div {
+clear:both;
+float:right;
+margin: 2% 10% 1% 5%;
+background-color:#38D1B3;
+border-radius:5px;
+width: 200px;
+height: 55px;
+}
+#buttons div p {
+font: normal normal bold large arial, sans-serif;
+color:#FFFFFF;
+}
+.head {
+font-weight:bold;
+}
+#title p {
+font-weight: bold;
+font-size: 150%;
+margin: 20px;
+}
+</style>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="title">
+		<p>Shopping cart</p>
+	</div>
+	<div id="table">
+		<hr>
+		<table class="head">
+			<tr><td></td><td>Price</td></tr>
+		</table>
+		<hr>
+		<table>
+			<tr><td>1) iPhone 16 GB Gold</td><td>$649</td></tr>
+			<tr><td>2) Book: How to make <br>a good mobile app</td><td>$30</td></tr>
+			<tr><td>3) Gift Card</td><td>$10</td></tr>
+		</table>
+		<hr>
+		<table class="head">		
+			<tr><td>Order total:</td><td>$711</td></tr>
+		</table>
+		<hr>
+	</div>
+<div id="buttons">
+	<div id="buy">
+		<p>Buy</p>
+	</div>
+	<a href="oneclick://test"><div id="buy_one_click">
+		<p>Buy with One Click</p>
+	</div></a>
+</div>
+</div>
+</body> 
+</html>
